@@ -10,7 +10,7 @@ body {
     font-size: 3.7rem;
     position: relative;
     bottom: 4.7rem;
-    left: 7.2rem;
+    left: 10rem;
     letter-spacing: 0.3rem;
 }
 
@@ -49,7 +49,7 @@ body {
     border-radius: 0.1rem;
 }
 
-.text_container {
+.about_me_text {
     font-family: "Playfair Display", serif;
     font-weight: 400;
     font-size: 2.1rem;
@@ -87,8 +87,98 @@ body {
     width: 155.9rem;
     height: 41rem;
     background-color: #0891b2; /* Clipped background color */
-    /*clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%); /* Adjust shape */
     clip-path: polygon(50% 0%, 100% 0, 100% 48%, 49% 74%, 0 100%, 0% 60%, 0 0);
     z-index: 1; /* Places it behind the image */
 }
 
+.my_work_text {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 2.1rem;
+    margin: 0%;
+    position: relative;
+    bottom: 1rem;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    width: 16.7rem;
+    height: 17rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background-color: #9e1c1c;
+    margin-left: 5rem;
+    border-radius: 0.1rem;
+}
+
+.text {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.project_info {
+    width: 16.7rem;
+    height: 10rem;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 0.1rem;
+}
+
+.project_name_text {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0%;
+    margin-top: 0.4rem;
+    margin-left: 0.8rem;
+}
+
+.project_description_text {
+    margin: 0%;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+    font-family: "Roboto", serif;
+    color: #575655;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+.text_and_icon_container {
+    display: flex;
+}
+
+.github_icon_for_project {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+}
+
+svg {
+    margin-top: 0.5rem;
+    margin-left: 0.8rem;
+}
+
+.row_container, .row_container_second {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+
+.my_work_text_container {
+    display: flex;
+    justify-content: center;
+    margin-right: 47rem;
+}
+
+.colum_container_for_my_works {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
